@@ -11,6 +11,18 @@ function App() {
        <section className='logo pb-5'>
         <img src="/images/logo.svg" alt="logo" className='lg:w-[50%] w-[40%]'  / >
       </section>
+
+      <section className='huddle-page'>
+             <section className="huddle-image">
+        <img src="/public/images/illustration-mockups.svg" className='lg:w-20% w-screen' alt="illustration image"/>
+      </section>
+
+      <section className='huddle-text'>
+         <div className='heading'>
+      <h1 className=' text-[clamp(24px,5vw,32px)] font-poppins font-[700] text-center font-poppins'>Build The Community Your Fans Will Love</h1>
+    </div>
+      </section>
+      </section>
     
     </main>
     </div>
