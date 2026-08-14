@@ -64,8 +64,15 @@ function App() {
           </section>
         </section>
       </main>
+
+      <footer class="attribution text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" className='text-attribution-link' >Frontend Mentor</a>. 
+      Coded by <a href="#" className='text-attribution-link'>Olaniyi Olatunbosun</a>.
+    </footer>
     </div>
-  );
+
+
+  )
 }
 
 export default App;
