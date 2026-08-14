@@ -1,5 +1,8 @@
-import { useState } from "react";
-import "./App.css";
+import { useState } from 'react'
+import './App.css'
+import { GrFacebookOption } from "react-icons/gr";
+import { TbBrandTwitterFilled } from "react-icons/tb";
+import { SlSocialInstagram } from "react-icons/sl";
 
 function App() {
   return (
@@ -36,10 +39,28 @@ function App() {
                 users as you engage in genuine discussion.{" "}
               </p>
             </div>
-
+            <div className="cta-section flex justify-center">
             <button className="bg-[#FFFFFF] lg:w-[20%] w-[65%] rounded-[20px] text-primary py-2 text-[14px] font-[500] hover:bg-active hover:text-[#FFFFFF] cursor-pointer">
               Register
             </button>
+            </div>
+
+            <section className='socials w-full flex justify-center gap-3 mt-[40px]'>
+
+  <div className='hover:border hover:text-active hover:border-active border-2 p-[8px] rounded-[50%] flex justify-center items-center cursor-pointer'>
+   <a href=""><GrFacebookOption className='' / ></a>
+   </div>
+  
+  <div className='hover:border hover:text-active hover:border-active border-2 p-[6px] rounded-[50%] flex justify-center items-center cursor-pointer'>
+   <a href=""><TbBrandTwitterFilled /></a>
+   </div>
+  
+  <div className='hover:border hover:text-active hover:border-active border-2 p-[6px] rounded-[50%] flex justify-center items-center cursor-pointer'>
+   <a href=""><SlSocialInstagram /></a>
+   </div>
+  
+</section>
+
           </section>
         </section>
       </main>
