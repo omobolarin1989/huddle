@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { GrFacebookOption } from "react-icons/gr";
 import { TbBrandTwitterFilled } from "react-icons/tb";
@@ -6,13 +5,15 @@ import { SlSocialInstagram } from "react-icons/sl";
 
 function App() {
   return (
-    <div className="">
-      <main className=' flex lg:flex-row flex-col justify-center items-center gap-y-3  lg:py-5 py-[30px] px-[28px] bg-primary lg:bg-[url("/public/images/bg-desktop.svg")] bg-[url("/public/images/bg-mobile.svg")] lg:bg-center lg:bg-contain lg:bg-no-repeat bg-no-repeat  lg:h-lvh w-full border border-var(--primary) text-[#FFFFFF] gap-y-4 '>
-        <section className="logo pb-5">
+
+    
+    <div>
+      <main className=' flex flex-col items-center gap-y-3  lg:py-[30px] py-[30px] lg:px-[40px] px-[28px] bg-primary lg:bg-[url("/public/images/bg-desktop.svg")] bg-[url("/public/images/bg-mobile.svg")] lg:bg-center lg:bg-contain lg:bg-no-repeat bg-no-repeat  lg:h-lvh h-lvh w-full text-[#FFFFFF] gap-y-4 '>
+        <section className="logo lg:pb-0 pb-5 lg:w-[100%]">
           <img
             src="/images/logo.svg"
             alt="logo"
-            className="lg:w-[50%] w-[40%]"
+            className="lg:w-[10%] w-[40%]"
           />
         </section>
 
@@ -20,14 +21,14 @@ function App() {
           <section className="huddle-image">
             <img
               src="/images/illustration-mockups.svg"
-              className="lg:w-20% w-screen"
+              className="lg:w-[20%] w-screen"
               alt="illustration image"
             />
           </section>
 
           <section className="huddle-text">
             <div className="heading">
-              <h1 className=" text-[clamp(24px,5vw,32px)] font-poppins font-[700] text-center font-poppins">
+              <h1 className=" text-[clamp(24px,5vw,32px)] font-poppins font-[700] text-center">
                 Build The Community Your Fans Will Love
               </h1>
             </div>
@@ -65,14 +66,14 @@ function App() {
         </section>
       </main>
 
-      <footer class="attribution text-center">
+      <footer className="attribution text-center">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" className='text-attribution-link' >Frontend Mentor</a>. 
       Coded by <a href="#" className='text-attribution-link'>Olaniyi Olatunbosun</a>.
     </footer>
     </div>
 
 
-  )
+  );
 }
 
 export default App;
