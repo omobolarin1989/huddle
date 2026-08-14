@@ -36,6 +36,10 @@ function App() {
                 users as you engage in genuine discussion.{" "}
               </p>
             </div>
+
+            <button className="bg-[#FFFFFF] lg:w-[20%] w-[65%] rounded-[20px] text-primary py-2 text-[14px] font-[500] hover:bg-active hover:text-[#FFFFFF] cursor-pointer">
+              Register
+            </button>
           </section>
         </section>
       </main>
