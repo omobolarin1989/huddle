@@ -7,16 +7,16 @@ function App() {
   return (
     <div>
       <main className=' flex flex-col items-center gap-y-3  lg:py-[30px] py-[30px] lg:px-[40px] px-[28px] bg-primary lg:bg-[url("/public/images/bg-desktop.svg")] bg-[url("/public/images/bg-mobile.svg")] lg:bg-center lg:bg-contain lg:bg-no-repeat bg-no-repeat  lg:h-vh h-100vh w-full text-[#FFFFFF] gap-y-4 '>
-        <section className="logo lg:pb-[30px] md:w-[100%] md:flex  md:pb-0 pb-2 w-[100%] lg:w-[100%] w-full">
+        <section className="logo lg:pb-[30px] md:w-[100%] md:flex  md:pb-0 pb-1 w-[100%] lg:w-[100%] w-full">
           <img
             src="/images/logo.svg"
             alt="logo"
-            className="lg:w-[10%] md:w-[15%] w-[20%]"
+            className="lg:w-[10%] md:w-[15%] w-[30%]"
           />
         </section>
 
-        <section className="huddle-page flex lg:flex-row flex-col lg:gap-x-[65px] gap-y-[20px]">
-          <section className="huddle-image lg:w-[60%]">
+        <section className="huddle-page flex lg:flex-row md:flex-row flex-col lg:gap-x-[65px] gap-y-[20px]">
+          <section className="huddle-image lg:w-[60%] md:w-[60%]">
             <img
               src="/images/illustration-mockups.svg"
               className="lg:w-[100%] w-screen"
@@ -24,16 +24,16 @@ function App() {
             />
           </section>
 
-          <section className="huddle-text lg:w-[40%] lg:justify-between flex flex-col lg:mt-[60px]">
+          <section className="huddle-text lg:w-[40%] md:w-[50%] lg:justify-between flex flex-col lg:mt-[50px]">
             <div className="header-para flex flex-col gap-y-4">
             <div className="heading lg:leading-[310%]">
-              <h1 className=" text-[clamp(24px,5vw,56px)] font-poppins font-[700] lg:text-left text-center ">
+              <h1 className=" text-[clamp(1.4rem,5vw,3.2rem)] font-poppins font-[600] lg:font-[700] lg:text-left text-center ">
                 Build The Community Your Fans Will Love
               </h1>
             </div>
 
             <div className="paragraph max-w-screen flex justify-center pb-2">
-              <p className="lg:text-[clamp(15px,3vw,25px)]  text-[clamp(15px,4vw,19px)] lg:font-[50] lg:text-left text-center font-opensans">
+              <p className="text-[clamp(0.82rem,3vw,1.4rem)] lg:text-left text-center font-opensans">
                 Huddle re-imagines the way we build communities. You have a
                 voice, but so does your audience. Create connections with your
                 users as you engage in genuine discussion.{" "}
