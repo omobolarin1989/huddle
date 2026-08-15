@@ -7,15 +7,15 @@ function App() {
   return (
     <div>
       <main className=' flex flex-col items-center gap-y-3  lg:py-[30px] py-[30px] lg:px-[40px] px-[28px] bg-primary lg:bg-[url("/public/images/bg-desktop.svg")] bg-[url("/public/images/bg-mobile.svg")] lg:bg-center lg:bg-contain lg:bg-no-repeat bg-no-repeat  lg:h-vh h-100vh w-full text-[#FFFFFF] gap-y-4 '>
-        <section className="logo lg:pb-[30px] pb-5 lg:w-[100%]">
+        <section className="logo lg:pb-[30px] md:w-[100%] md:flex  md:pb-0 pb-2 w-[100%] lg:w-[100%] w-full">
           <img
             src="/images/logo.svg"
             alt="logo"
-            className="lg:w-[10%] w-[40%]"
+            className="lg:w-[10%] md:w-[15%] w-[20%]"
           />
         </section>
 
-        <section className="huddle-page lg:flex gap-x-[65px]">
+        <section className="huddle-page flex lg:flex-row flex-col lg:gap-x-[65px] gap-y-[20px]">
           <section className="huddle-image lg:w-[60%]">
             <img
               src="/images/illustration-mockups.svg"
@@ -47,19 +47,19 @@ function App() {
             </div>
 
             <section className="socials w-full lg:h-auto flex justify-center lg:justify-end gap-3 mt-[40px] ">
-              <div className="hover:border hover:text-active hover:border-active border-2 p-[8px] rounded-[50%] flex justify-center items-center cursor-pointer">
+              <div className="hover:border-2 hover:text-active hover:border-active border-2 p-[8px] rounded-[50%] flex justify-center items-center cursor-pointer">
                 <a href="">
                   <GrFacebookOption className="" />
                 </a>
               </div>
 
-              <div className="hover:border hover:text-active hover:border-active border-2 p-[6px] rounded-[50%] flex justify-center items-center cursor-pointer">
+              <div className="hover:border-2 hover:text-active hover:border-active border-2 p-[6px] rounded-[50%] flex justify-center items-center cursor-pointer">
                 <a href="">
                   <TbBrandTwitterFilled />
                 </a>
               </div>
 
-              <div className="hover:border hover:text-active hover:border-active border-2 p-[6px] rounded-[50%] flex justify-center items-center cursor-pointer">
+              <div className="hover:border-2 hover:text-active hover:border-active border-2 p-[6px] rounded-[50%] flex justify-center items-center cursor-pointer">
                 <a href="">
                   <SlSocialInstagram />
                 </a>
