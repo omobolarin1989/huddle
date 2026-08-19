@@ -59,11 +59,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
 
 - Solution URL: [Solution URL](https://github.com/omobolarin1989/huddle)
-- Live Site URL: [Live site] (huddle-frontend-mentor-sand.vercel.app)
+- Live Site URL: [Live site](huddle-frontend-mentor-sand.vercel.app)
 
 ## My process
 
@@ -75,7 +74,7 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- Textclamp
+- Text clamp
 
 ### What I learned
 
