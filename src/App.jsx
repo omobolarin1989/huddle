@@ -52,9 +52,9 @@ function App() {
 
         
       </main>
-      <footer class="attribution text-center">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      <footer class="attribution text-center text-[0.6875rem]">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" className="text-[#3e52a3]">Frontend Mentor</a>. 
+      Coded by <a href="#" className="text-[#3e52a3]">Olaniyi Olatunbosun</a>.
     </footer>
     
     </div>
