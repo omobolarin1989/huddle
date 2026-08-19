@@ -22,7 +22,7 @@ function App() {
             <p className="text-center text-[clamp(0.74rem,2vw,1.2rem)] lg:text-left font-opensans">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
   Create connections with your users as you engage in genuine discussion.</p>
   <div className="w-full flex justify-center lg:justify-start">
-  <button type="submit" className="border font-[400] text-[20px] py-[5px] lg:py-[9x] px-[20%] md:px-[120px] lg:px-[45px] flex justify-center lg:rounded-[25px] rounded-[20px] bg-[#FFFFFF] text-primary font-opensans">Register</button>
+  <button type="submit" className="border font-[400] text-[20px] py-[5px] lg:py-[9x] px-[20%] md:px-[120px] lg:px-[45px] flex justify-center lg:rounded-[25px] rounded-[20px] bg-[#FFFFFF] text-primary hover:bg-active hover:cursor-pointer hover:text-[#FFFFFF] hover:border-none font-opensans">Register</button>
         </div>
           </div>
           
@@ -52,7 +52,10 @@ function App() {
 
         
       </main>
-
+      <footer class="attribution text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
     
     </div>
   );
